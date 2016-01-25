@@ -140,6 +140,16 @@
   <ItemGroup>
     <Resource Include="FriendStorageIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FriendStorage.DataAccess\FriendStorage.DataAccess.csproj">
+      <Project>{ed3b0a8c-bce2-427b-8da8-ac7f1388dd2e}</Project>
+      <Name>FriendStorage.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FriendStorage.Model\FriendStorage.Model.csproj">
+      <Project>{67eb7c6d-721a-4c84-991d-594bd263a0ed}</Project>
+      <Name>FriendStorage.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
